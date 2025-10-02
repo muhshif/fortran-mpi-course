@@ -68,7 +68,7 @@ Climate models like **ICON-CLM**, **WRF**, and **ECHAM** are all written in Fort
 
 ## 🧑‍💻 Who Made This?
 
-This course was created by a postdoctoral researcher in atmospheric sciences, as part of a personal learning and teaching initiative. All content is free to use, adapt, and share.
+This course was created by M. M. Karadan, a researcher in atmospheric sciences, as part of a personal learning and teaching initiative. All content is free to use, adapt, and share.
 
 If you'd like to contribute or suggest additions, feel free to open a pull request or issue!
 
