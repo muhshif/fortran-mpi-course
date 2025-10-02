@@ -98,6 +98,21 @@ This chapter connects your MPI skills to the real model. You now:
 This is a huge step toward real scientific computing.
 
 ---
+### 🧪 Tracing MPI Activity in ICON
+
+To trace what each MPI rank is doing inside ICON:
+
+1. Open `src/share/mo_communication.f90`
+2. Find `subroutine exchange_data`
+3. Add:
+
+```fortran
+use mpi
+integer :: comm_rank, ierr
+call MPI_Comm_rank(MPI_COMM_WORLD, comm_rank, ierr)
+print *, 'Hello from rank', comm_rank, 'in exchange_data'
+
+---
 
 ## ⏭️ Coming Next: Capstone Project
 
