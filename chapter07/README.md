@@ -111,21 +111,9 @@ use mpi
 integer :: comm_rank, ierr
 call MPI_Comm_rank(MPI_COMM_WORLD, comm_rank, ierr)
 print *, 'Hello from rank', comm_rank, 'in exchange_data'
-
+```
 ---
-####
 
-## 🧠 Why This Matters
-
-This chapter connects your MPI skills to the real model. You now:
-
-* Understand ICON’s parallel layout
-* Know where to add diagnostics
-* Can debug or modify real ICON components
-
-This is a huge step toward real scientific computing.
-
----
 ## ⏭️ Coming Next: Capstone Project
 
 Time to bring it all together — Fortran + MPI + climate modeling in your own mini simulation! 🌡️🌐
