@@ -115,6 +115,16 @@ print *, 'Hello from rank', comm_rank, 'in exchange_data'
 ---
 ####
 
+## 🧠 Why This Matters
+
+This chapter connects your MPI skills to the real model. You now:
+
+* Understand ICON’s parallel layout
+* Know where to add diagnostics
+* Can debug or modify real ICON components
+
+This is a huge step toward real scientific computing.
+
 ---
 ## ⏭️ Coming Next: Capstone Project
 
