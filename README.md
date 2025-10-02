@@ -1,5 +1,4 @@
-# fortran-mpi-course
-# 🌀 Fortran & MPI for Climate Modeling: A Beginner-Friendly Course
+# 🌀 Fortran & MPI for Climate Modeling: A Beginner-Friendly Course (fortran-mpi-course)
 
 Welcome to the official repository for **"Learning Fortran & MPI for Climate Modeling"**, a hands-on course designed for atmospheric scientists, climate researchers, and students who want to gain practical programming skills in scientific computing.
 
